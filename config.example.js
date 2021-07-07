@@ -21,13 +21,13 @@
  */
 
 module.exports  = {
-    base: 'https://www.xfinity.com/mobile/', // base url of the website
+    base: 'https://www.vinciu.com/mobile/', // base url of the website
     urls: [
-        'https://www.xfinity.com/mobile' // URLs to scan (works only if autoCrawl is false)
+        'https://www.vinciu.com/mobile' // URLs to scan (works only if autoCrawl is false)
     ],
-    strictPresence: 'https://www.xfinity.com/mobile/', // Crawl links only if this is present
+    strictPresence: 'https://www.vinciu.com/mobile/', // Crawl links only if this is present
     ignoreStrings: [ // Ignore any link with this string
-        'img.xfinity',
+        'img.vinciu',
         'styles.',
         'm.me'
     ],

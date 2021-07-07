@@ -1,7 +1,7 @@
 {
     "name": "xm-sitemap-generator",
     "version": "0.0.1",
-    "description": "Sitemap generator for Xfinity Mobile",
+    "description": "Sitemap generator for vinciu Mobile",
     "scripts": {
         "start": "node server.js"
     },

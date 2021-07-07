@@ -21,18 +21,18 @@ To start generating
 
 ```js
 module.exports  = {
-    base: 'https://www.xfinity.com', // website url
+    base: 'https://www.vinciu.com', // website url
     urls: [ // list of pages you want to crawl
-        'https://www.xfinity.com/mobile', 
-        'https://www.xfinity.com/mobile/plan',
-        'https://www.xfinity.com/mobile/byod',
-        'https://www.xfinity.com/mobile/support',
-        'https://www.xfinity.com/mobile/shop?category=device',
-        'https://www.xfinity.com/mobile/shop?category=accessories'
+        'https://www.vinciu.com/mobile', 
+        'https://www.vinciu.com/mobile/plan',
+        'https://www.vinciu.com/mobile/byod',
+        'https://www.vinciu.com/mobile/support',
+        'https://www.vinciu.com/mobile/shop?category=device',
+        'https://www.vinciu.com/mobile/shop?category=accessories'
     ],
-    strictPresence: 'www.xfinity.com/mobile/', // url will be added to xml only if this exists
+    strictPresence: 'www.vinciu.com/mobile/', // url will be added to xml only if this exists
     ignoreStrings: [ // ignore any url that has these texts
-        'img.xfinity',
+        'img.vinciu',
         'styles.',
         'm.me'
     ],
@@ -51,7 +51,7 @@ module.exports  = {
 
 **base**
 
-`base: 'https://www.xfinity.com'`
+`base: 'https://www.vinciu.com'`
 
 Website that you want to create sitemap for
 
